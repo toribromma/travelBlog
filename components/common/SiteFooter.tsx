@@ -8,7 +8,7 @@ import { FaTwitter, FaInstagram, FaSlack, FaYoutube } from "react-icons/fa";
 
 const SiteFooter = () => {
 	// set up Agility CMS Socials
-	const socials = [
+	/** const socials = [
 		{
 			title: "Twitter",
 			url: "https://www.twitter.com/agilitycms",
@@ -111,7 +111,12 @@ const SiteFooter = () => {
 				</div>
 			</div>
 		</footer>
-	);
-};
+	); */
+	
+	return (
+		<footer></footer>
+		)
+}; 
+	
 
 export default SiteFooter;
